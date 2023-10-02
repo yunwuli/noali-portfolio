@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css"
+          />
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.css"
+          />
+          <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+        />
+    <style>
+body {
+        margin: 0;
+        min-height: 100vh;
+      }
+
+      #myCarousel {
+        --f-carousel-spacing: 10px;
+        --f-carousel-slide-width: 100%;
+        --f-progress-color: #575757;
+        width: 100%;
+        max-width: 768px; /* Set a max-width for larger screens */
+        margin: 0 auto; /* Center the carousel horizontally */
+        overflow: hidden; /* Ensure content doesn't overflow */
+      }
+
+      #myCarousel .f-carousel__slide {
+        background: #eee;
+      }
+
+      #myCarousel img {
+        width: 100%;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+      <div class="f-carousel" id="myCarousel">
+        <div class="f-carousel__slide"><a href="img/portfolio/captus1.png" data-fancybox="gallery-a" data-caption="Visual display of the showcase.">
+            <img src="img/portfolio/captus1.png"></a>
+        </div>
+        <div class="f-carousel__slide"><a href="img/portfolio/captus2.png" data-fancybox="gallery-a" data-caption="Visual display of the showcase.">
+            <img src="img/portfolio/captus2.png"></a>
+        </div>
+        <div class="f-carousel__slide"><a href="img/portfolio/captus3.png" data-fancybox="gallery-a" data-caption="Display of white back panel and travel essentials.">
+            <img src="img/portfolio/captus3.png"></a>
+        </div>
+        <div class="f-carousel__slide"><a href="img/portfolio/captus4.png" data-fancybox="gallery-a" data-caption="Visual display of the showcase.">
+          <img src="img/portfolio/captus4.png"></a>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script>
+      new Carousel(document.getElementById("myCarousel"), {
+        Autoplay : {
+          timeout : 2000
+        }
+      }, {
+        Autoplay
+      });
+      Fancybox.bind('[data-fancybox="gallery-a"]', {
+        Thumbs: false,
+        Toolbar: {
+        display: {
+          left: [],
+          middle: [],
+          right: ["iterateZoom",
+                "slideshow",
+                "fullscreen",
+                "close",],
+              },
+            },
+});
+    </script>
+  </body>
+</html>

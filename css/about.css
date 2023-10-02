@@ -1,0 +1,466 @@
+/*---------------------------------------------------*/
+/*	06) ABOUT
+/*---------------------------------------------------*/
+.noa_tm_about .noa_tm_title{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	overflow: hidden;
+    margin-bottom: 0px;
+}
+.noa_tm_about .biography{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 30px;
+}
+.noa_tm_about .biography .wrapper{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.noa_tm_about .biography .left{
+	width: 40%;
+}
+.noa_tm_about .biography .left p{
+	margin-bottom: 15px;
+}
+.noa_tm_about .biography .left p:last-child{
+	margin-bottom: 15px;
+}
+.noa_tm_about .biography .right{
+	width: 50%;
+}
+.noa_tm_about .biography .right ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.noa_tm_about .biography .right ul li{
+	margin: 0px 0px 8px 0px;
+	width: 100%;
+	float: left;
+}
+.noa_tm_about .biography .right ul li:last-child{
+	margin-bottom: 20px;
+}
+.noa_tm_about .biography .right ul li span{
+	display: inline-block;
+}
+.noa_tm_about .biography .right ul li .first{
+	min-width: 100px;
+	font-weight: 700;
+}
+.noa_tm_about .biography .right ul li a{
+	text-decoration: none;
+	color: #7d7789;
+	
+	-webkit-transition: all .3s ease;
+	   -moz-transition: all .3s ease;
+	    -ms-transition: all .3s ease;
+	     -o-transition: all .3s ease;
+	        transition: all .3s ease;
+}
+.noa_tm_about .biography .right ul li a:hover{
+	color: #333;
+}
+.noa_tm_about .services{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 30px;
+}
+.noa_tm_about .services .wrapper{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	justify-content: space-between;
+}
+.noa_tm_about .services .list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-top: 10px;
+}
+.noa_tm_about .services .service_list{
+	width: 40%;
+}
+.noa_tm_about .services .service_list:nth-child(2){
+	width: 50%;
+}
+.noa_tm_about .services .service_list ul{
+	margin: 0px;
+	list-style-type: none;
+}
+.noa_tm_about .services .service_list ul li{
+	margin: 0px 0px 8px 0px;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-left: 25px;
+}
+.noa_tm_about .services .service_list ul li:last-child{
+	margin-bottom: 0px;
+}
+.noa_tm_about .services .service_list ul li:before{
+	position: absolute;
+	content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5.5px 0 5.5px 9.5px;
+    border-color: transparent transparent transparent #7d7789;
+	left: 0px;
+	top: 7px;
+}
+.noa_tm_about .skills{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+}
+.noa_tm_about .skills .wrapper{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	justify-content: space-between;
+}
+.noa_tm_about .skills .programming{
+	width: 100%;
+    padding-right: 40px;
+}
+.noa_tm_about .skills .language{
+	width: 50%;
+}
+.noa_progress{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-top: 0px;
+    margin-bottom:30px;
+    padding-top: 10px;
+}
+.progress_inner{
+	width:100%;
+	margin-bottom:25px;
+}
+.progress_inner:last-child{
+	margin-bottom: 0px;
+}
+.progress_inner > span{
+	margin:0px 0px 5px 0px;
+	width:100%;
+	display:block;
+	text-align:left;
+}
+.progress_inner span.number{
+	float: right;
+}
+.progress_inner .background{
+	background:rgba(0,0,0,.07);
+	width:100%;
+	min-width:100%;
+	position:relative;
+	height:3px;
+}
+.progress_inner .background .bar_in{
+	height:100%;
+	background:#7d7789;
+	width:0px;
+	overflow:hidden;
+}
+.progress_inner .background .bar{
+	width:0px;
+	height:100%;
+}
+.progress_inner .background .bar.open{
+	-webkit-animation: wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Safari 4+ */
+	-moz-animation:    wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* Fx 5+ */
+	animation:         wow 2s cubic-bezier(0.165, 0.840, 0.440, 1.000);  /* IE 10+ */
+	width:100%;	
+}
+
+@-webkit-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+@-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+@keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
+
+.noa_tm_about .resume{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+}
+.noa_tm_about .resume .wrapper{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	justify-content: space-between;
+}
+.noa_tm_about .resume .list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+}
+.noa_tm_about .resume .education{
+	width: 45%;
+}
+.noa_tm_about .resume .experience{
+	width: 45%;
+}
+.noa_tm_about .univ{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-top: 20px;
+}
+.noa_tm_about .univ ul{
+	margin: 0px;
+	list-style-type: none;
+	position: relative;
+	display: inline-block;
+	padding-top: 10px;
+}
+.noa_tm_about .univ ul:before{
+	content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.07);
+}
+.noa_tm_about .univ ul li{
+	margin: 0px;
+	width: 100%;
+	float: left;
+	position: relative;
+	padding-left: 20px;
+	padding-bottom: 45px;
+}
+.noa_tm_about .univ ul li:last-child{padding-bottom: 0px;}
+.noa_tm_about .univ ul li:before{
+	content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    background: #f6fbff;
+    border-radius: 100%;
+    border: solid 1px #CCC;
+    left: -9px;
+    top: 8px;
+}
+.noa_tm_about .univ ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	display: flex;
+	position: relative;
+}
+.noa_tm_about .univ ul li .time{
+	width: 50%;
+	padding-right: 20px;
+}
+.noa_tm_about .univ ul li .time span{
+	display: inline-block;
+	padding: 5px 25px;
+	background-color: rgba(0,0,0,.05);
+	border-radius: 50px;
+	font-size: 14px;
+	white-space: nowrap;
+}
+.noa_tm_about .univ ul li .place{
+	width: 50%;
+	padding-left: 20px;
+}
+.noa_tm_about .univ ul li .place h3{
+	font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.noa_tm_about .univ ul li .place span{
+	font-size: 12px;
+}
+
+.noa_tm_full_link{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 5;
+}
+.noa_tm_about .testimonials{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-bottom: 10px;
+}
+.noa_tm_about .testimonials .list{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	margin-top: 20px;
+}
+.noa_tm_about .testimonials .list ul{
+	margin: 0px;
+	list-style-type: none;
+	cursor: e-resize;
+}
+.noa_tm_about .testimonials .list ul li{
+	margin: 0px;
+}
+.noa_tm_about .testimonials .list ul li .list_inner{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+}
+.noa_tm_about .testimonials .list ul li .text{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	position: relative;
+	border: 2px solid #E5EDF4;
+	padding: 40px;
+	margin-bottom: 30px;
+}
+.noa_tm_about .testimonials .list ul li .text:before{
+	position: absolute;
+	content: "";
+	height: 0px;
+    width: 0px;
+	top: 100%;
+    left: 50px;
+    border: solid transparent;
+    border-top-color: #E5EDF4;
+    border-width: 18px 18px 0px 0px;
+}
+.noa_tm_about .testimonials .list ul li .text:after{
+	position: absolute;
+	content: "";
+	top: 100%;
+    left: 50px;
+	height: 0px;
+    width: 0px;
+    border: solid transparent;
+    border-top-color: #f6fbff;
+    border-width: 14px 13px 0px 0px;
+    margin-left: 2px;
+}
+.noa_tm_about .testimonials .list ul li .text i{
+	position: absolute;
+	z-index: 1;
+	font-size: 30px;
+	top: -29px;
+	left: 50px;
+}
+.noa_tm_about .testimonials .details{
+	width: 100%;
+	height: auto;
+	clear: both;
+	float: left;
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+}
+.noa_tm_about .testimonials .details .image{
+	position: relative;
+	width: 60px;
+	height: 60px;
+}
+.noa_tm_about .testimonials .details .image .main{
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+}
+.noa_tm_about .testimonials .details .info{
+	padding-left: 20px;
+}
+.noa_tm_about .testimonials .details .info h3{
+	font-size: 16px;
+    margin-bottom: 2px;
+    font-weight: 600;
+}
+.noa_tm_about .testimonials .details .info span{
+	font-size: 14px;
+}
+.noa_tm_about .testimonials .owl-carousel .owl-stage-outer{
+	overflow: hidden;
+}
+.noa_tm_about .testimonials .owl-carousel .owl-stage-outer{
+	overflow: visible;
+}
+.noa_tm_about .testimonials .owl-item.active{
+	opacity: 1;
+}
+.noa_tm_about .testimonials .owl-item{
+	opacity: 0;
+}
+/*---------------------------------------------------*/
+/*	16) noa MEDIA QUERIES (FOR SMALL DEVICES)
+/*---------------------------------------------------*/
+
+@media (max-width: 1600px) {
+	body{font-size: 15px;}
+	.circular_progress_bar .list_inner:after{width: 100px;height: 100px;}
+	.circular_progress_bar .title{max-width: 100px;}
+	.progress_inner{margin-bottom: 18px;}
+	.noa_tm_about .univ ul li .time span{padding: 3px 12px;}
+	.noa_tm_about .univ ul li .place{padding-left: 50px;}
+}
+@media (max-width: 1040px) {
+	
+	.noa_tm_about .biography .wrapper{flex-direction: column;align-items: baseline;}
+	.noa_tm_about .biography .left{width: 100%;margin-bottom: 10px;}
+	.noa_tm_about .biography .right{width: 100%;}
+	.noa_tm_about .services .wrapper{flex-direction: column;align-items: baseline;}
+	.noa_tm_about .services .service_list{width: 100%;margin-bottom: 30px;}
+	.noa_tm_about .services .service_list:nth-child(2){width: 100%;}
+	.noa_tm_about .services .interests{width: 100%;}
+	.noa_tm_section .section_inner{padding: 57px 20px 0px 20px;}
+	.noa_tm_about .skills .wrapper{flex-direction: column;align-items: baseline;}
+	.noa_tm_about .skills .programming{width: 100%;margin-bottom: 10px;}
+	.noa_tm_about .skills .language{width: 100%;}
+	.circular_progress_bar .title{float: none;}
+	.noa_tm_about .resume .wrapper{flex-direction: column;align-items: baseline;}
+	.noa_tm_about .resume .education{width: 100%;margin-bottom: 30px;}
+	.noa_tm_about .resume .experience{width: 100%;}
+    .noa_tm_about .univ ul li .time{margin-right: 20px;width: 15%;}
+	.noa_tm_about .univ ul li .place{padding-left: 40px;}
+}
+@media (max-width: 768px) {
+	
+	.circular_progress_bar .list_inner:after{width: 80px;height: 80px;}
+	.circular_progress_bar .title{max-width: 80px;}
+    .noa_tm_about .univ ul li .time{width: 50%;}
+	.noa_tm_about .univ ul li .place{padding-left: 30px;}
+}
+@media (max-width: 412px){
+.noa_tm_about .univ ul li .place {padding-left: 20px;}
+}
