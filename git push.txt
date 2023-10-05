@@ -1,0 +1,499 @@
+https://youtu.be/GkXBK4OKaOI?si=J7nUHUj9KAlaGcuf
+https://hackmd.io/@KbbbrL2kQGCA7eHztz-v6w/HJT2qi7sx?type=view#%E4%B8%89%E3%80%81%E9%9B%BB%E8%85%A6%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AE%89%E8%A3%9D%E5%A5%BDgit
+
+
+--------------------------------Git Bash----------------------------
+Noa Li@DESKTOP-G0S9HQK MINGW64 ~
+$ cd
+Display all 47 possibilities? (y or n)
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 ~
+$ cd d:
+Display all 47 possibilities? (y or n)
+.ZocFiles
+.cache/
+.gitconfig
+.lesshst
+.matplotlib/
+.ms-ad/
+.ssh/
+.vscode/
+3D Objects/
+AppData/
+Application Data/
+Contacts/
+Cookies/
+Creative Cloud Files/
+Documents/
+Downloads/
+Favorites/
+IntelGraphicsProfiles/
+Links/
+Local Settings/
+Log/
+MJKJDeviceGUID
+MJKJRegInfo_ER2BF232W6LEV5F45GHF2VP7PYSGLLJQ
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 ~
+$ cd ^[[200~D:\Yunwuli-Profolio~
+bash: cd: $'\E[200~D:Yunwuli-Profolio~': No such file or directory
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 ~
+$ cd D:\Yunwuli-Profolio
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio
+$ ls
+captus.html  css/  img/  img.html  index.html  js/  modal/  portfolio.html
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio
+$ ls -l
+total 88
+-rw-r--r-- 1 Noa Li 197121  3045 Aug 26 19:44 captus.html
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 css/
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 img/
+-rw-r--r-- 1 Noa Li 197121  2316 Aug 15  2022 img.html
+-rw-r--r-- 1 Noa Li 197121 26739 Sep 25 23:05 index.html
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 js/
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 modal/
+-rw-r--r-- 1 Noa Li 197121 47438 Sep 27 23:55 portfolio.html
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio
+$ ls -la
+total 96
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 ./
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 ../
+-rw-r--r-- 1 Noa Li 197121  3045 Aug 26 19:44 captus.html
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 css/
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 img/
+-rw-r--r-- 1 Noa Li 197121  2316 Aug 15  2022 img.html
+-rw-r--r-- 1 Noa Li 197121 26739 Sep 25 23:05 index.html
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 js/
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 modal/
+-rw-r--r-- 1 Noa Li 197121 47438 Sep 27 23:55 portfolio.html
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio
+$ git init
+Initialized empty Git repository in D:/Yunwuli-Profolio/.git/
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ ls -al
+total 100
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:30 ./
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 ../
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:30 .git/
+-rw-r--r-- 1 Noa Li 197121  3045 Aug 26 19:44 captus.html
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 css/
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 img/
+-rw-r--r-- 1 Noa Li 197121  2316 Aug 15  2022 img.html
+-rw-r--r-- 1 Noa Li 197121 26739 Sep 25 23:05 index.html
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 js/
+drwxr-xr-x 1 Noa Li 197121     0 Oct  2 18:27 modal/
+-rw-r--r-- 1 Noa Li 197121 47438 Sep 27 23:55 portfolio.html
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ ls
+captus.html  css/  img/  img.html  index.html  js/  modal/  portfolio.html
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ ls -a
+./   .git/        css/  img.html    js/     portfolio.html
+../  captus.html  img/  index.html  modal/
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ ^V
+bash: $'\026': command not found
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git add .
+fatal: LF would be replaced by CRLF in css/font/fontello3b7f.svg
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git commit -m “first push”
+error: pathspec 'push”' did not match any file(s) known to git
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git log
+fatal: your current branch 'master' does not have any commits yet
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        captus.html
+        css/
+        img.html
+        img/
+        index.html
+        js/
+        modal/
+        portfolio.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git add .
+fatal: LF would be replaced by CRLF in css/font/fontello3b7f.svg
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git add .
+fatal: LF would be replaced by CRLF in css/font/fontello3b7f.svg
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git config --global core.safecrlf false
+
+=========================================
+本文作者:辛西亞．Cynthia
+本文連結:https://cynthiachuang.github.io/Fix-LF-Would-Be-Replaced-by-CRLF/
+版權聲明:除非另有標注，部落格中所有文章，均採用 CC BY-NC-SA 4.0 許可協議。 轉載 請標明作者、連結與出處！^C
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git config --global core.safecrlf false
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git add .
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   captus.html
+        new file:   css/about.css
+        new file:   css/carousel.css
+        new file:   css/colors.css
+        new file:   css/contact.css
+        new file:   css/dark.css
+        new file:   css/font/fontello3b7f.eot
+        new file:   css/font/fontello3b7f.svg
+        new file:   css/font/fontello3b7f.ttf
+        new file:   css/font/fontello3b7f.woff
+        new file:   css/font/fontello3b7f.woff2
+        new file:   css/owl.video.play.html
+        new file:   css/plugins.css
+        new file:   css/portfolio.css
+        new file:   css/style.css
+        new file:   img.html
+        new file:   img/logo/dark.png
+        new file:   img/logo/dark2.png
+        new file:   img/news/1.jpg
+        new file:   img/news/2.jpg
+        new file:   img/news/3.jpg
+        new file:   img/news/4.jpg
+        new file:   img/partners/1.png
+        new file:   img/partners/2.png
+        new file:   img/partners/3.png
+        new file:   img/partners/4.png
+        new file:   img/partners/5.png
+        new file:   img/partners/6.png
+        new file:   img/partners/7.png
+        new file:   img/partners/8.png
+        new file:   img/portfolio/1.jpg
+        new file:   img/portfolio/14th-thumb.jpg
+        new file:   img/portfolio/14th_1.jpg
+        new file:   img/portfolio/14th_2.jpg
+        new file:   img/portfolio/14th_3.jpg
+        new file:   img/portfolio/14th_4.jpg
+        new file:   img/portfolio/14th_5.jpg
+        new file:   img/portfolio/2.jpg
+        new file:   img/portfolio/3.jpg
+        new file:   img/portfolio/4.jpg
+        new file:   img/portfolio/5.jpg
+        new file:   img/portfolio/6.jpg
+        new file:   img/portfolio/7.jpg
+        new file:   img/portfolio/8.jpg
+        new file:   img/portfolio/AVoverIP.jpg
+        new file:   img/portfolio/AVoverIP_thumb.jpg
+        new file:   img/portfolio/DD1.jpg
+        new file:   img/portfolio/DD10.jpg
+        new file:   img/portfolio/DD11.jpg
+        new file:   img/portfolio/DD12.jpg
+        new file:   img/portfolio/DD13.jpg
+        new file:   img/portfolio/DD14.jpg
+        new file:   img/portfolio/DD15.jpg
+        new file:   img/portfolio/DD16.jpg
+        new file:   img/portfolio/DD2.jpg
+        new file:   img/portfolio/DD3.jpg
+        new file:   img/portfolio/DD4.jpg
+        new file:   img/portfolio/DD5.jpg
+        new file:   img/portfolio/DD6.jpg
+        new file:   img/portfolio/DD7.jpg
+        new file:   img/portfolio/DD8.jpg
+        new file:   img/portfolio/DD9.jpg
+        new file:   img/portfolio/DD_thumb.jpg
+        new file:   img/portfolio/IntrIoT.jpg
+        new file:   img/portfolio/IntrIoT_thumb.jpg
+        new file:   img/portfolio/Metroshop1.jpg
+        new file:   img/portfolio/Metroshop10.jpg
+        new file:   img/portfolio/Metroshop11.jpg
+        new file:   img/portfolio/Metroshop12.jpg
+        new file:   img/portfolio/Metroshop13.jpg
+        new file:   img/portfolio/Metroshop14.jpg
+        new file:   img/portfolio/Metroshop15.jpg
+        new file:   img/portfolio/Metroshop16.jpg
+        new file:   img/portfolio/Metroshop17.jpg
+        new file:   img/portfolio/Metroshop18.jpg
+        new file:   img/portfolio/Metroshop19.jpg
+        new file:   img/portfolio/Metroshop2.jpg
+        new file:   img/portfolio/Metroshop20.jpg
+        new file:   img/portfolio/Metroshop21.jpg
+        new file:   img/portfolio/Metroshop22.jpg
+        new file:   img/portfolio/Metroshop23.jpg
+        new file:   img/portfolio/Metroshop24.jpg
+        new file:   img/portfolio/Metroshop25.jpg
+        new file:   img/portfolio/Metroshop26.jpg
+        new file:   img/portfolio/Metroshop27.jpg
+        new file:   img/portfolio/Metroshop28.jpg
+        new file:   img/portfolio/Metroshop29.jpg
+        new file:   img/portfolio/Metroshop3.jpg
+        new file:   img/portfolio/Metroshop30.jpg
+        new file:   img/portfolio/Metroshop31.jpg
+        new file:   img/portfolio/Metroshop32.jpg
+        new file:   img/portfolio/Metroshop33.jpg
+        new file:   img/portfolio/Metroshop34.jpg
+        new file:   img/portfolio/Metroshop35.jpg
+        new file:   img/portfolio/Metroshop36.jpg
+        new file:   img/portfolio/Metroshop37.jpg
+        new file:   img/portfolio/Metroshop38.jpg
+        new file:   img/portfolio/Metroshop39.jpg
+        new file:   img/portfolio/Metroshop4.jpg
+        new file:   img/portfolio/Metroshop40.jpg
+        new file:   img/portfolio/Metroshop41.jpg
+        new file:   img/portfolio/Metroshop41Metroshop_thumb.jpg
+        new file:   img/portfolio/Metroshop42.jpg
+        new file:   img/portfolio/Metroshop43.jpg
+        new file:   img/portfolio/Metroshop44.jpg
+        new file:   img/portfolio/Metroshop5.jpg
+        new file:   img/portfolio/Metroshop6.jpg
+        new file:   img/portfolio/Metroshop7.jpg
+        new file:   img/portfolio/Metroshop8.jpg
+        new file:   img/portfolio/Metroshop9.jpg
+        new file:   img/portfolio/PUBG_Banner.jpg
+        new file:   img/portfolio/PUBG_googleplay.jpg
+        new file:   img/portfolio/PUBG_thumbs.jpg
+        new file:   img/portfolio/captus-thumb.jpg
+        new file:   img/portfolio/captus1.jpg
+        new file:   img/portfolio/captus2.jpg
+        new file:   img/portfolio/captus3.jpg
+        new file:   img/portfolio/captus4.jpg
+        new file:   img/portfolio/snapto-banner-IG.jpg
+        new file:   img/portfolio/snapto-banner-thumb.jpg
+        new file:   img/portfolio/snapto-banner.jpg
+        new file:   img/portfolio/watercity-1.jpg
+        new file:   img/portfolio/watercity-10.jpg
+        new file:   img/portfolio/watercity-11.jpg
+        new file:   img/portfolio/watercity-2.jpg
+        new file:   img/portfolio/watercity-3.jpg
+        new file:   img/portfolio/watercity-4.jpg
+        new file:   img/portfolio/watercity-5.jpg
+        new file:   img/portfolio/watercity-6.jpg
+        new file:   img/portfolio/watercity-7.jpg
+        new file:   img/portfolio/watercity-8.jpg
+        new file:   img/portfolio/watercity-9.jpg
+        new file:   img/portfolio/watercity_thumb.jpg
+        new file:   img/slider/1.jpg
+        new file:   img/slider/face-bw.jpg
+        new file:   img/slider/face-bw2.jpg
+        new file:   img/slider/face.jpeg
+        new file:   img/thumbs/1-1.jpg
+        new file:   img/thumbs/4-2.jpg
+        new file:   img/thumbs/4-3.jpg
+        new file:   img/thumbs/Hi.ico
+        new file:   index.html
+        new file:   js/carousel.js
+        new file:   js/include.js
+        new file:   js/init.js
+        new file:   js/jquery.js
+        new file:   js/plugins.js
+        new file:   js/portfolio.js
+        new file:   modal/contact.html
+        new file:   modal/test.html
+        new file:   portfolio.html
+
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git commit -m “first push”
+error: pathspec 'push”' did not match any file(s) known to git
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git commit -m 'first push'
+[master (root-commit) 109d26b] first push
+ 151 files changed, 29113 insertions(+)
+ create mode 100644 captus.html
+ create mode 100644 css/about.css
+ create mode 100644 css/carousel.css
+ create mode 100644 css/colors.css
+ create mode 100644 css/contact.css
+ create mode 100644 css/dark.css
+ create mode 100644 css/font/fontello3b7f.eot
+ create mode 100644 css/font/fontello3b7f.svg
+ create mode 100644 css/font/fontello3b7f.ttf
+ create mode 100644 css/font/fontello3b7f.woff
+ create mode 100644 css/font/fontello3b7f.woff2
+ create mode 100644 css/owl.video.play.html
+ create mode 100644 css/plugins.css
+ create mode 100644 css/portfolio.css
+ create mode 100644 css/style.css
+ create mode 100644 img.html
+ create mode 100644 img/logo/dark.png
+ create mode 100644 img/logo/dark2.png
+ create mode 100644 img/news/1.jpg
+ create mode 100644 img/news/2.jpg
+ create mode 100644 img/news/3.jpg
+ create mode 100644 img/news/4.jpg
+ create mode 100644 img/partners/1.png
+ create mode 100644 img/partners/2.png
+ create mode 100644 img/partners/3.png
+ create mode 100644 img/partners/4.png
+ create mode 100644 img/partners/5.png
+ create mode 100644 img/partners/6.png
+ create mode 100644 img/partners/7.png
+ create mode 100644 img/partners/8.png
+ create mode 100644 img/portfolio/1.jpg
+ create mode 100644 img/portfolio/14th-thumb.jpg
+ create mode 100644 img/portfolio/14th_1.jpg
+ create mode 100644 img/portfolio/14th_2.jpg
+ create mode 100644 img/portfolio/14th_3.jpg
+ create mode 100644 img/portfolio/14th_4.jpg
+ create mode 100644 img/portfolio/14th_5.jpg
+ create mode 100644 img/portfolio/2.jpg
+ create mode 100644 img/portfolio/3.jpg
+ create mode 100644 img/portfolio/4.jpg
+ create mode 100644 img/portfolio/5.jpg
+ create mode 100644 img/portfolio/6.jpg
+ create mode 100644 img/portfolio/7.jpg
+ create mode 100644 img/portfolio/8.jpg
+ create mode 100644 img/portfolio/AVoverIP.jpg
+ create mode 100644 img/portfolio/AVoverIP_thumb.jpg
+ create mode 100644 img/portfolio/DD1.jpg
+ create mode 100644 img/portfolio/DD10.jpg
+ create mode 100644 img/portfolio/DD11.jpg
+ create mode 100644 img/portfolio/DD12.jpg
+ create mode 100644 img/portfolio/DD13.jpg
+ create mode 100644 img/portfolio/DD14.jpg
+ create mode 100644 img/portfolio/DD15.jpg
+ create mode 100644 img/portfolio/DD16.jpg
+ create mode 100644 img/portfolio/DD2.jpg
+ create mode 100644 img/portfolio/DD3.jpg
+ create mode 100644 img/portfolio/DD4.jpg
+ create mode 100644 img/portfolio/DD5.jpg
+ create mode 100644 img/portfolio/DD6.jpg
+ create mode 100644 img/portfolio/DD7.jpg
+ create mode 100644 img/portfolio/DD8.jpg
+ create mode 100644 img/portfolio/DD9.jpg
+ create mode 100644 img/portfolio/DD_thumb.jpg
+ create mode 100644 img/portfolio/IntrIoT.jpg
+ create mode 100644 img/portfolio/IntrIoT_thumb.jpg
+ create mode 100644 img/portfolio/Metroshop1.jpg
+ create mode 100644 img/portfolio/Metroshop10.jpg
+ create mode 100644 img/portfolio/Metroshop11.jpg
+ create mode 100644 img/portfolio/Metroshop12.jpg
+ create mode 100644 img/portfolio/Metroshop13.jpg
+ create mode 100644 img/portfolio/Metroshop14.jpg
+ create mode 100644 img/portfolio/Metroshop15.jpg
+ create mode 100644 img/portfolio/Metroshop16.jpg
+ create mode 100644 img/portfolio/Metroshop17.jpg
+ create mode 100644 img/portfolio/Metroshop18.jpg
+ create mode 100644 img/portfolio/Metroshop19.jpg
+ create mode 100644 img/portfolio/Metroshop2.jpg
+ create mode 100644 img/portfolio/Metroshop20.jpg
+ create mode 100644 img/portfolio/Metroshop21.jpg
+ create mode 100644 img/portfolio/Metroshop22.jpg
+ create mode 100644 img/portfolio/Metroshop23.jpg
+ create mode 100644 img/portfolio/Metroshop24.jpg
+ create mode 100644 img/portfolio/Metroshop25.jpg
+ create mode 100644 img/portfolio/Metroshop26.jpg
+ create mode 100644 img/portfolio/Metroshop27.jpg
+ create mode 100644 img/portfolio/Metroshop28.jpg
+ create mode 100644 img/portfolio/Metroshop29.jpg
+ create mode 100644 img/portfolio/Metroshop3.jpg
+ create mode 100644 img/portfolio/Metroshop30.jpg
+ create mode 100644 img/portfolio/Metroshop31.jpg
+ create mode 100644 img/portfolio/Metroshop32.jpg
+ create mode 100644 img/portfolio/Metroshop33.jpg
+ create mode 100644 img/portfolio/Metroshop34.jpg
+ create mode 100644 img/portfolio/Metroshop35.jpg
+ create mode 100644 img/portfolio/Metroshop36.jpg
+ create mode 100644 img/portfolio/Metroshop37.jpg
+ create mode 100644 img/portfolio/Metroshop38.jpg
+ create mode 100644 img/portfolio/Metroshop39.jpg
+ create mode 100644 img/portfolio/Metroshop4.jpg
+ create mode 100644 img/portfolio/Metroshop40.jpg
+ create mode 100644 img/portfolio/Metroshop41.jpg
+ create mode 100644 img/portfolio/Metroshop41Metroshop_thumb.jpg
+ create mode 100644 img/portfolio/Metroshop42.jpg
+ create mode 100644 img/portfolio/Metroshop43.jpg
+ create mode 100644 img/portfolio/Metroshop44.jpg
+ create mode 100644 img/portfolio/Metroshop5.jpg
+ create mode 100644 img/portfolio/Metroshop6.jpg
+ create mode 100644 img/portfolio/Metroshop7.jpg
+ create mode 100644 img/portfolio/Metroshop8.jpg
+ create mode 100644 img/portfolio/Metroshop9.jpg
+ create mode 100644 img/portfolio/PUBG_Banner.jpg
+ create mode 100644 img/portfolio/PUBG_googleplay.jpg
+ create mode 100644 img/portfolio/PUBG_thumbs.jpg
+ create mode 100644 img/portfolio/captus-thumb.jpg
+ create mode 100644 img/portfolio/captus1.jpg
+ create mode 100644 img/portfolio/captus2.jpg
+ create mode 100644 img/portfolio/captus3.jpg
+ create mode 100644 img/portfolio/captus4.jpg
+ create mode 100644 img/portfolio/snapto-banner-IG.jpg
+ create mode 100644 img/portfolio/snapto-banner-thumb.jpg
+ create mode 100644 img/portfolio/snapto-banner.jpg
+ create mode 100644 img/portfolio/watercity-1.jpg
+ create mode 100644 img/portfolio/watercity-10.jpg
+ create mode 100644 img/portfolio/watercity-11.jpg
+ create mode 100644 img/portfolio/watercity-2.jpg
+ create mode 100644 img/portfolio/watercity-3.jpg
+ create mode 100644 img/portfolio/watercity-4.jpg
+ create mode 100644 img/portfolio/watercity-5.jpg
+ create mode 100644 img/portfolio/watercity-6.jpg
+ create mode 100644 img/portfolio/watercity-7.jpg
+ create mode 100644 img/portfolio/watercity-8.jpg
+ create mode 100644 img/portfolio/watercity-9.jpg
+ create mode 100644 img/portfolio/watercity_thumb.jpg
+ create mode 100644 img/slider/1.jpg
+ create mode 100644 img/slider/face-bw.jpg
+ create mode 100644 img/slider/face-bw2.jpg
+ create mode 100644 img/slider/face.jpeg
+ create mode 100644 img/thumbs/1-1.jpg
+ create mode 100644 img/thumbs/4-2.jpg
+ create mode 100644 img/thumbs/4-3.jpg
+ create mode 100644 img/thumbs/Hi.ico
+ create mode 100644 index.html
+ create mode 100644 js/carousel.js
+ create mode 100644 js/include.js
+ create mode 100644 js/init.js
+ create mode 100644 js/jquery.js
+ create mode 100644 js/plugins.js
+ create mode 100644 js/portfolio.js
+ create mode 100644 modal/contact.html
+ create mode 100644 modal/test.html
+ create mode 100644 portfolio.html
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git remote add origin https://github.com/yunwuli/noali-portfolio.git
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ git push origin master
+Enumerating objects: 163, done.
+Counting objects: 100% (163/163), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (163/163), done.
+Writing objects: 100% (163/163), 41.83 MiB | 6.50 MiB/s, done.
+Total 163 (delta 38), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (38/38), done.
+To https://github.com/yunwuli/noali-portfolio.git
+ * [new branch]      master -> master
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$ ^C
+
+Noa Li@DESKTOP-G0S9HQK MINGW64 /d/Yunwuli-Profolio (master)
+$
