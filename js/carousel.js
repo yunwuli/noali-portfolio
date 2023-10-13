@@ -122,3 +122,55 @@ Fancybox.bind('[data-fancybox="gallery-i"]', {
         },
       },
 });
+Fancybox.bind('[data-fancybox="gallery-j"]', {
+  Thumbs: false,
+  Toolbar: {
+  display: {
+    left: [],
+    middle: [],
+    right: ["iterateZoom",
+          "slideshow",
+          "fullscreen",
+          "close",],
+        },
+      },
+});
+Fancybox.bind('[data-fancybox="gallery-k"]', {
+  Thumbs: false,
+  Toolbar: {
+  display: {
+    left: [],
+    middle: [],
+    right: ["iterateZoom",
+          "slideshow",
+          "fullscreen",
+          "close",],
+        },
+      },
+});
+Fancybox.bind('[data-fancybox="gallery-l"]', {
+  Thumbs: false,
+  Toolbar: {
+  display: {
+    left: [],
+    middle: [],
+    right: ["iterateZoom",
+          "slideshow",
+          "fullscreen",
+          "close",],
+        },
+      },
+});
+Fancybox.bind('[data-fancybox="gallery-i"]', {
+  Thumbs: false,
+  Toolbar: {
+  display: {
+    left: [],
+    middle: [],
+    right: ["iterateZoom",
+          "slideshow",
+          "fullscreen",
+          "close",],
+        },
+      },
+});

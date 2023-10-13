@@ -24,5 +24,5 @@ body {
     max-height: 1632px;
   }
   .fancybox-image {
-    clip-path: polygon(1px 2px, calc(100% - 1px) 2px, calc(100% - 1px) calc(100% - 2px), 1px calc(100% - 2px));
+    clip-path: polygon(2px 2px, calc(100% - 2px) 2px, calc(100% - 2px) calc(100% - 2px), 2px calc(100% - 2px));
 }
