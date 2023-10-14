@@ -174,3 +174,16 @@ Fancybox.bind('[data-fancybox="gallery-i"]', {
         },
       },
 });
+Fancybox.bind('[data-fancybox="gallery-m"]', {
+  Thumbs: false,
+  Toolbar: {
+  display: {
+    left: [],
+    middle: [],
+    right: ["iterateZoom",
+          "slideshow",
+          "fullscreen",
+          "close",],
+        },
+      },
+});
