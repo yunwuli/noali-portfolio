@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>簡單網站</title>
+  <style>
+    /* 這裡可以加入你的樣式 */
+  </style>
+</head>
+<body>
+  <header>
+    <h1>我的網站</h1>
+    <nav>
+      <a href="#" onclick="loadPage('home')">首頁</a>
+      <a href="#" onclick="loadPage('news')">新聞</a>
+      <a href="#" onclick="loadPage('about')">關於我們</a>
+      <a href="#" onclick="loadPage('contact')">聯絡我們</a>
+    </nav>
+  </header>
+  <div id="content">
+    <!-- 這裡將顯示不同的頁面內容 -->
+  </div>
+  <script>
+    function loadPage(page) {
+      // 利用 History API 改變 URL
+      history.pushState({ page: page }, "", `/${page}/`);
+
+      // 載入相應頁面的內容
+      document.getElementById('content').innerHTML = `這是 ${page} 頁面的內容。`;
+    }
+
+    // 監聽瀏覽器的後退/前進事件，以便更改內容
+    window.onpopstate = function(event) {
+      const page = event.state ? event.state.page : 'home';
+      document.getElementById('content').innerHTML = `這是 ${page} 頁面的內容。`;
+    };
+
+    // 初始化，檢查當前URL
+    const initialPage = window.location.pathname.replace(/\//g, '') || 'home';
+    loadPage(initialPage);
+  </script>
+</body>
+</html>
