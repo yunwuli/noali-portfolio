@@ -161,7 +161,7 @@ Fancybox.bind('[data-fancybox="gallery-l"]', {
         },
       },
 });
-Fancybox.bind('[data-fancybox="gallery-i"]', {
+Fancybox.bind('[data-fancybox="gallery-n"]', {
   Thumbs: false,
   Toolbar: {
   display: {

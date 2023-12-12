@@ -1,27 +1,24 @@
 function include_portfolio_HTML() {
-    var z, i, elmnt, file, xhttp;
-    /*loop through a collection of all HTML elements:*/
-    z = document.getElementsByTagName("*");
-    for (i = 0; i < z.length; i++) {
-      elmnt = z[i];
-      /*search for elements with a certain attribute:*/
-      file = elmnt.getAttribute("include-html");
-      if (file) {
-        /*make an HTTP request using the attribute value as the file name:*/
-        xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4) {
-            if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-            if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-            /*remove the attribute, and call this function once more:*/
-            elmnt.removeAttribute("include-html");
-            include_portfolio_HTML();
+    let els = document.querySelectorAll("[include-html]");
+    for (const el of els) {
+      let fileUrl = el.getAttribute("include-html");
+      let xhr = new XMLHttpRequest();
+      xhr.onreadystatechange = function () {
+        if (xhr.readyState == XMLHttpRequest.DONE) {
+          if (xhr.status == 200 || xhr.status == 304) { 
+            el.innerHTML = xhr.responseText;
+            noa_tm_modalbox_portfolio();
+            noa_tm_projects();
+            noa_tm_portfolio();
+            noa_tm_data_images();
           }
-        }      
-        xhttp.open("GET", file, true);
-        xhttp.send();
-        /*exit the function:*/
-        return;
-      }
+          else if (xhr.status == 404) {el.innerHTML = "Page not found.";}
+          el.removeAttribute("include-html");
+        }
+      }      
+      xhr.open("GET", fileUrl, true);
+      xhr.send();
     }
   };
+
+  include_portfolio_HTML();

@@ -37,8 +37,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.autoplay.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="js/carousel.js"></script>
-    <script src="js/include.js"></script>
-    <script> include_portfolio_HTML();</script> 
 </head>
 
 <body>
@@ -379,11 +377,7 @@
                                 </div>
                             </div>
                             <div class="list_wrapper">
-                                    <div include-html="portfolio.html"></div>
-                                    <script src="js/include.js"></script>
-                                    <script>
-                                    include_portfolio_HTML();
-                                    </script>
+                                <div id="shit" include-html="portfolio.html" include-callback="noa_tm_projects()"></div>
                             </div>
                         </div>
                     </div>
@@ -444,7 +438,6 @@
     <script src="js/init.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDvYH8At_E7_MCdAkrlNz6D7J97WNXuHKI&amp;callback=initMap"></script> 
     <script src="js/include.js"></script>
-    <script>include_portfolio_HTML();</script>
 </body>
 
 </html>
